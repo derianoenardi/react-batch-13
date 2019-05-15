@@ -75,6 +75,7 @@ class Home extends Component {
            <ColorChange />
            <button onClick={this.increment}>Increment</button>
            <button onClick={this.decrement}>Decrement</button>
+           {this.props.angka}
          </div>
         );
        // return (

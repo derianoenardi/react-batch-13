@@ -3,7 +3,7 @@ import myReducer from './Reducer'
 import logger from 'redux-logger'
 import thunk from 'redux-thunk'
 
-const composeEnhancers = window._REDUX_DEVTOOLS_EXTENSION_COMPOSE_
+const composeEnhancers = window._REDUX_DEVTOOLS_EXTENSION_COMPOSE_ || compose
 
 const store = createStore(
     myReducer,

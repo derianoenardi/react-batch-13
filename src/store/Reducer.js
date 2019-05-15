@@ -30,12 +30,4 @@ const myReducer = (state = {...myData}, action) => {
     }
 }
 
-export const incrementAction = () => ({
-    type: 'INCREMENT'
-})
-
-export const decrementAction = () => ({
-    type: 'DECREMENT'
-})
-
-export const store = createStore(myReducer)
+export default myReducer;

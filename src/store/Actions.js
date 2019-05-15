@@ -11,7 +11,7 @@ export const fetchUser = () => {
 }
 
 export const incrementAction = () => ({
-    type: 'PENAMBAHAN'
+    type: 'INCREMENT'
 })
 
 export const decrementAction = () => ({
